@@ -1,3 +1,5 @@
-altair
-pandas
+matplotlib
 streamlit
+pandas
+tensorflow
+numpy
