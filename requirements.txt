@@ -3,3 +3,6 @@ streamlit
 pandas
 tensorflow
 numpy
+cgitb 
+re 
+PIL
