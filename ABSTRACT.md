@@ -1,3 +1,10 @@
 # A Web-Based System of Identification for Starfish Species Using The Python-Streamlit Framework
 
-Starfish in the Latin name are echinoderms of the Asteroidea class. Starfish have many varieties, so it is difficult to recognize them all. Only people with the knowledge of starfish can recognize them correctly. The research aims to develop a web-based system to identify the starfish through digital images of the starfish. The Python Streamlit Framework is used to develop the application by deploying the intelligent model, which was built using the Convolutional Neural Network (CNN) method. The Results showed that the model succeeded in identifying the type of starfish in as many as 410 data pointsnusing stratified 5-fold cross validation, with the highest accuracy of 94% and the lowest of 81%. At the testing stage, it showed an accuracy of 86%. And after the smart model is implemented into the online system, it can identify 52 new data points, with 47 data points being correct predicted and 5 data being falsely predicted, so the precision is 90% achieved by the system, indicates that the system can be used as marine edutourism content especially for recognizing the starfish based on their image.
+How to run the dashboard
+conda create --name main-ds python=3.9
+
+conda activate main-ds
+
+pip install cgitb, re, PIL, matplotlib, streamlit, pandas, tensorflow, numpy
+
+streamlit run apps.py
